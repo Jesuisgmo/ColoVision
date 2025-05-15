@@ -1,8 +1,9 @@
-# [Your Project Title Here]
+# ColoVision - AI with a Gut Feeling.
 
 ## Repository Link
 
-[https://github.com/your_username/your_project_name]
+https://github.com/Jesuisgmo/MHIST-DL-project/tree/main
+
 
 ## Description
 
