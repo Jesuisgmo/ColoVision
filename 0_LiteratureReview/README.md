@@ -1,9 +1,5 @@
 ## 📚 Literature Review
 
-This section summarizes previous research related to histopathological image analysis using deep learning for cancer detection and classification.
-
----
-
 ### 🔹 Source 1: [Accurate and reproducible invasive breast cancer detection in whole-slide images: A Deep Learning approach for quantifying tumor extent](https://www.nature.com/articles/srep46450#Tab4)
 
 - **Objective**: Develop a deep learning method to detect invasive tumor regions in pathology slides.
