@@ -58,4 +58,4 @@ This section summarizes previous research related to histopathological image ana
 
   ✅ These results demonstrate the benefits of transfer learning and dataset curation in histopathology model performance.
 
-- **Relation to the Project**: Provides a directly relevant dataset for developing and testing computer vision models to distinguish benign from malignant colon polyps. ...and we want to beat the baseline model performance with eoither our own or ResNet50 :)
+- **Relation to the Project**: Provides a directly relevant dataset for developing and testing computer vision models to distinguish benign from malignant colon polyps. ...and we want to beat the baseline model performance with either our own or using ResNet50 :)
