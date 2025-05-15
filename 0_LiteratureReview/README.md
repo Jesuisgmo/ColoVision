@@ -18,7 +18,7 @@ This section summarizes previous research related to histopathological image ana
 - **Objective**: Review deep learning applications in histopathology and genomics for cancer diagnosis and prognosis.
 - **Methods**: Explores CNNs, Vision Transformers (ViTs), weak/strong supervision, and MIL techniques.
 - **Outcomes**: DL models can achieve high performance across tasks (classification, mutation prediction, survival modeling) but require attention to bias and generalization issues.
-- **Relation to the Project**: Informs the selection of appropriate architectures (e.g., MIL, ViTs) and supervision strategies for colon polyp classification.
+- **Relation to the Project**: Informs the selection of appropriate architectures and supervision strategies for colon polyp classification.
 
 #### 🧠 Technology Comparison
 
@@ -37,6 +37,25 @@ This section summarizes previous research related to histopathological image ana
 ### 🔹 Source 3: [A Petri Dish for Histopathology Image Analysis (MHIST Dataset)](https://arxiv.org/pdf/2101.12355)
 
 - **Objective**: Present a curated dataset for colorectal polyp classification using DL.
-- **Methods**: Compiled 3,152 image tiles (224×224 px) from 328 WSIs of hyperplastic polyps (HPs) and sessile serrated adenomas (SSAs), anonymized and verified for quality.
-- **Outcomes**: MHIST serves as a benchmark dataset for training and evaluating deep learning models in histopathology.
-- **Relation to the Project**: Provides a directly relevant dataset for developing and testing computer vision models to distinguish benign from malignant colon polyps.
+- **Methods**: Compiled 3,152 image tiles (224×224 px) from 328 WSIs of hyperplastic polyps (HPs) and sessile serrated adenomas (SSAs), anonymized and verified for quality, classified by 7 pathologists.
+- **Outcomes**: MHIST serves as a benchmark dataset for training and evaluating deep learning models in histopathology. ResNet18 tested.
+
+  - **Training Efficiency**:
+    - ResNet-18 converged in ~6 minutes using 3.5 GB memory on an NVIDIA RTX 3090 GPU.
+
+  - **Performance (AUC - Area Under the Curve)**:
+    - **Without Pretraining**:  
+      - AUC = **84.5%**
+    - **With ImageNet Pretraining**:  
+      - AUC = **92.7%**
+      - 🔼 Improvement of **+8.2%** due to transfer learning.
+
+  - **Effect of Annotator Agreement**:
+    - Training only on high-agreement cases (e.g., "very easy", "easy"):
+      - AUC = **85.1%**
+    - Using all images (regardless of label certainty):
+      - AUC = **84.5%**
+
+  ✅ These results demonstrate the benefits of transfer learning and dataset curation in histopathology model performance.
+
+- **Relation to the Project**: Provides a directly relevant dataset for developing and testing computer vision models to distinguish benign from malignant colon polyps. ...and we want to beat the baseline model performance with eoither our own or ResNet50 :)
