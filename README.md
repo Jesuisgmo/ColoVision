@@ -1,4 +1,4 @@
-# ColoVision - AI with a Gut Feeling.
+# ColoVision - AI with a gut feeling.
 
 ## Repository Link
 
