@@ -29,4 +29,4 @@ https://github.com/Jesuisgmo/ColoVision
 
 ## Cover Image
 
-![Project Cover Image](CoverImage/cover_image.png)
+![Project Cover Image](CoverImage/ColoVision.png)
