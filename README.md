@@ -7,11 +7,11 @@ https://github.com/Jesuisgmo/ColoVision
 
 ## Description
 
-[Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
+Discriminating benigh polyps and malignant colon adenocarcinoma using computer vision as a project for an Opencampus.sh Machine Learning course. We used [MHIST dataset](https://bmirds.github.io/MHIST/) that contains 3,152 histological pictures of (H&E)-stained Formalin Fixed Paraffin-Embedded (FFPE) fixed-size images (224 by 224 pixels) of colorectal polyps from the Department of Pathology and Laboratory Medicine at Dartmouth-Hitchcock Medical Center (DHMC).
 
 ### Task Type
 
-[Image Classification / Chatbot / Regression / Clustering / Other]
+Binary Image Classification - Hyperplastic Polyp (HP) vs Sessile Serrated Adenoma (SSA).
 
 ### Results Summary
 
