@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-https://github.com/Jesuisgmo/MHIST-DL-project/tree/main
+https://github.com/Jesuisgmo/ColoVision
 
 
 ## Description
