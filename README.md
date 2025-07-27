@@ -31,4 +31,4 @@ Binary Image Classification - Hyperplastic Polyp (HP) vs Sessile Serrated Adenom
 
 ## Cover Image
 
-![Project Cover Image](CoverImage/ColoVision.png)
+![Project Cover Image](CoverImage/cover.png)
