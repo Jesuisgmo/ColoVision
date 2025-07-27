@@ -25,8 +25,8 @@ Binary Image Classification - Hyperplastic Polyp (HP) vs Sessile Serrated Adenom
 
 1. **[Literature Review](0_LiteratureReview/README.md)**
 2. **[Dataset Characteristics](1_DatasetCharacteristics/exploratory_data_analysis.ipynb)**
-3. **[Baseline Model](2_BaselineModel/baseline_model.ipynb)**
-4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
+3. **[Baseline Model](2_BaselineModel/Baseline_model.ipynb)**
+4. **[Model Definition and Evaluation](3_Model/FINAL_model.ipynb)**
 5. **[Presentation](4_Presentation/README.md)**
 
 ## Cover Image
