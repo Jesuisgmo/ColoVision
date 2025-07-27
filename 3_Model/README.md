@@ -1,3 +1,3 @@
 # Model Definition and Evaluation
 
-**[Notebook](model_definition_evaluation)**
+**[Notebook](FINAL_model.ipynb)**
