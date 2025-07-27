@@ -17,7 +17,10 @@ Binary Image Classification - Hyperplastic Polyp (HP) vs Sessile Serrated Adenom
 
 - **Best Model:** DenseNet121
 - **Evaluation Metric:** AUC, Accuracy, Loss
-- **Result:** 93.51, 84.92, 0.0671
+- **Result:** 
+              AUC: 93.51,
+              Accuracy: 84.92,
+              Loss: 0.0671
 ## Documentation
 
 1. **[Literature Review](0_LiteratureReview/README.md)**
